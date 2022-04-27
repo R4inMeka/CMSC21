@@ -7,6 +7,8 @@
 int main(void){
    float grades[n_students], average, sum;
    int i;
+
+   printf("Enter scores one by one: ");
    
    for(i = 0; i < n_students; i++){
       printf("Enter grade for Student %d: ", i+1);
@@ -15,7 +17,6 @@ int main(void){
 
    for(i = 0; i < n_students; i++){
       sum += grades[i];
-      printf("at point i = %d, grades[%d] = %.2f, sum = %.2f\n", i+1, i, grades[i], sum);
    }
 
    average = sum / n_students;
