@@ -7,8 +7,6 @@
 int main(void){
    float grades[n_students], average, sum;
    int i;
-
-   printf("Enter scores one by one: ");
    
    for(i = 0; i < n_students; i++){
       printf("Enter grade for Student %d: ", i+1);
