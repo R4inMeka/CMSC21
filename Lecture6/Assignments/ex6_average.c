@@ -22,13 +22,6 @@ int main(void){
          printf("a[%d] = %d is a negative number. \n", i, a[i]);
       }
    }
-
-   int b[15] = { [4] = 48, [9] = 7, [2] = 29};
-
-   for (i = 0; i < 15; i++) {
-      printf("b[%d] = %d \n", i, b[i]);
-   }
-
    return 0;
 }
 

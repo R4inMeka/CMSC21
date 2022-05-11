@@ -15,7 +15,6 @@ int main(void){
 
    for(i = 0; i < n_students; i++){
       sum += grades[i];
-      printf("at point i = %d, grades[%d] = %.2f, sum = %.2f\n", i+1, i, grades[i], sum);
    }
 
    average = sum / n_students;
